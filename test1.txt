@@ -1,0 +1,54 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2021.03.12 11:27:31 =~=~=~=~=~=~=~=~=~=~=~=
+login as: administrator
+administrator@172.20.40.3's password: 
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-66-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+0 packages can be updated.
+0 of these updates are security updates.
+
+New release '20.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Fri Mar 12 11:25:15 2021 from 172.20.31.182
+(base) ]0;administrator@TKM-AI-Server01: ~administrator@TKM-AI-Server01:~$ jupyter notebook[2Ppython abc2.pyjupyter notebook
+[32m[I 11:27:45.389 NotebookApp](B[m JupyterLab extension loaded from /data/anaconda3/lib/python3.8/site-packages/jupyterlab
+[32m[I 11:27:45.389 NotebookApp](B[m JupyterLab application directory is /data/anaconda3/share/jupyter/lab
+[32m[I 11:27:45.390 NotebookApp](B[m Serving notebooks from local directory: /home/administrator
+[32m[I 11:27:45.391 NotebookApp](B[m Jupyter Notebook 6.1.4 is running at:
+[32m[I 11:27:45.391 NotebookApp](B[m http://localhost:8888/?token=4136f1e2855bf02f9b0241104305c05c3bf5c40f1154e03d
+[32m[I 11:27:45.391 NotebookApp](B[m  or http://127.0.0.1:8888/?token=4136f1e2855bf02f9b0241104305c05c3bf5c40f1154e03d
+[32m[I 11:27:45.391 NotebookApp](B[m Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[33m[W 11:27:45.393 NotebookApp](B[m No web browser found: could not locate runnable browser.
+[C 11:27:45.393 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/administrator/.local/share/jupyter/runtime/nbserver-6023-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=4136f1e2855bf02f9b0241104305c05c3bf5c40f1154e03d
+     or http://127.0.0.1:8888/?token=4136f1e2855bf02f9b0241104305c05c3bf5c40f1154e03d
+[32m[I 11:27:53.718 NotebookApp](B[m 302 GET / (127.0.0.1) 0.99ms
+[32m[I 11:27:53.807 NotebookApp](B[m 302 GET /tree? (127.0.0.1) 1.55ms
+[32m[I 11:30:40.935 NotebookApp](B[m 302 GET / (127.0.0.1) 0.93ms
+[32m[I 11:30:40.977 NotebookApp](B[m 302 GET /tree? (127.0.0.1) 1.12ms
+[32m[I 11:31:08.495 NotebookApp](B[m 302 POST /login?next=%2Ftree%3F (127.0.0.1) 1.95ms
+[32m[I 11:32:35.566 NotebookApp](B[m Saving file at /alexnet.ipynb
+[33m[W 11:32:35.578 NotebookApp](B[m Notebook alexnet.ipynb is not trusted
+[32m[I 11:32:50.214 NotebookApp](B[m Kernel started: cc0b8536-9ffd-4cde-929a-bde5156d6272, name: python3
+[32m[I 11:33:18.515 NotebookApp](B[m Starting buffering for cc0b8536-9ffd-4cde-929a-bde5156d6272:e98dc0112b2f414eaed6c446543791c5
+[32m[I 11:33:18.741 NotebookApp](B[m Kernel restarted: cc0b8536-9ffd-4cde-929a-bde5156d6272
+[32m[I 11:33:18.781 NotebookApp](B[m Restoring connection for cc0b8536-9ffd-4cde-929a-bde5156d6272:e98dc0112b2f414eaed6c446543791c5
+[32m[I 11:33:18.782 NotebookApp](B[m Replaying 3 buffered messages
+[11:33:40] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (set the environment variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+[32m[I 11:34:50.090 NotebookApp](B[m Saving file at /alexnet.ipynb
+[32m[I 11:36:50.052 NotebookApp](B[m Saving file at /alexnet.ipynb
+[32m[I 11:38:50.043 NotebookApp](B[m Saving file at /alexnet.ipynb
+[32m[I 11:39:14.760 NotebookApp](B[m Starting buffering for cc0b8536-9ffd-4cde-929a-bde5156d6272:e98dc0112b2f414eaed6c446543791c5
